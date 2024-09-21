@@ -4,20 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="index.js"></script>
 </head>
-<body style="max-width: 300px; margin: 0 auto;">
+<body style="max-width: 300px; margin: 0 auto; padding-bottom: 50px;">
     <img src="./assets/dp.jpg" alt="my photo" width="100%"/>
-    <p>Name: David Ogbaudu</p>
+    <p>Writting by: David Ogbaudu</p>
     <p>Project title: Hello World</p>
     <p>Insitution: Brigham Young University-Idaho</p>
-    <h1 
+    <div
         style="
         background-color: teal; 
         color: white; 
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        text-align: center;"
+        text-align: center;
+        padding: 5px;"
     >
-        Hello World!
-    </h1>
+        <h1>Hello World!</h1>
+        <p id="greetingText"></p>
+    </div>
+    <form id="prompt" onsubmit=showGreeting(event)>
+        <label style="font-size: 12px;">Enter your name and click on submit to view a customized message
+            <input type="text" id="name" required minlength="2" style="margin-left: 10px; margin-right: 10px;"/> 
+        </label> 
+        <button type="submit">submit</button>
+    </form>
 </body>
 </html>

@@ -13,6 +13,7 @@ https://youtu.be/Qe4D-Bwg5Zk
 #Development Environment/Programming language/tools
 HTML: For displaying markup language
 CSS: For styling and beautification
+JavaScript: For logic
 github: For version control
 VS Code: For writing my code and managing directories effortlessly
 
